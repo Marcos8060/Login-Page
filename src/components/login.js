@@ -73,14 +73,16 @@ const Login = () => {
           Make Easy HMIS v1.0
         </p>
       </div>
-      <div className="md:block hidden w-1/2 loginPage text-white flex flex-col items-center justify-center space-y-12">
-        <div>
-          <p className="text-3xl uppercase font-thin">Welcome to</p>
-          <h1 className="uppercase text-4xl border-b py-8">Make-Easy HMIS</h1>
-        </div>
-        <div>
-          <p className="text-3xl">We make HMIS Easy</p>
-        </div>
+      <div className="md:block hidden w-1/2 loginPage text-white">
+        <section className="flex flex-col items-center justify-center space-y-12 h-screen">
+          <div>
+            <p className="text-3xl uppercase font-thin">Welcome to</p>
+            <h1 className="uppercase text-4xl border-b py-8">Make-Easy HMIS</h1>
+          </div>
+          <div>
+            <p className="text-3xl">We make HMIS Easy</p>
+          </div>
+        </section>
       </div>
     </section>
   );
