@@ -39,7 +39,7 @@ const Login = () => {
   };
 
   return (
-    <section className="flex items-center justify-center h-screen relative">
+    <section className="flex items-center justify-center h-screen py-4 relative">
       <div className="absolute top-4 left-12">
         <img className=" w-24 " src="/images/logo.png" alt="" />
         <p style={{ fontSize: "10px" }} className=" text-blue-700">
