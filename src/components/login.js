@@ -56,9 +56,9 @@ const Login = () => {
                 <FormControlLabel control={<Checkbox />} label="I agree to" />
               </div>
               <div>
-                <a className="text-sm underline text-blue-700" href="/">
+                <Link className="text-sm underline text-blue-700" href="/">
                   Privacy Policy
-                </a>
+                </Link>
               </div>
             </div>
             <div className="flex items-center justify-center mt-4">
